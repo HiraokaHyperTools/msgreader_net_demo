@@ -1,0 +1,1 @@
+dotnet publish -c:Release -p:GHPages=true -p:GHPagesBase=/msgreader_net_demo && robocopy /mir publish\wwwroot ..\docs
